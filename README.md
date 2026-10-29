@@ -109,6 +109,7 @@ OOP_Game_Engine_ECS_Project/
 ├── bin/
 │   └── GameEngineECS.exe                      # Compiled 64-bit release binary
 ├── docs/
+│   ├── Case_Study_OOP_Game_Engine_ECS.docx    # Strict 7-Section Case Study Report
 │   ├── OOP_Game_Engine_ECS_Project_Report.docx # Comprehensive 28–30 Page Word Report
 │   └── OOP_PROJECT_REPORT_FULL.md             # Complete Markdown Academic Report
 ├── figures/                                   # 7 High-Resolution Figures & Benchmarks
@@ -129,13 +130,15 @@ OOP_Game_Engine_ECS_Project/
 ├── src/
 │   ├── main.cpp                               # Engine Simulation Loop & Integration
 │   ├── generate_benchmarks.py                 # Matplotlib/Seaborn Benchmark Generator
-│   ├── generate_oop_report.py                 # Automated Word Document Compiler
+│   ├── generate_oop_case_study.py             # Automated Case Study Word Report Compiler
+│   ├── generate_oop_report.py                 # Automated Mini Project Word Report Compiler
 │   └── report_utils.py                        # Word Document Formatting Helper
 ├── build_and_run.bat                          # Automated Windows Compile & Launch Script
 ├── CMakeLists.txt                             # Multi-platform CMake Build Configuration
 ├── requirements.txt                           # Python Dependencies for Report Generation
 ├── .gitignore                                 # Clean Git Build Exclusions
-├── OOP_Game_Engine_ECS_Project_Report.docx    # Root convenience copy of Word report
+├── Case_Study_OOP_Game_Engine_ECS.docx        # Root convenience copy of Case Study
+├── OOP_Game_Engine_ECS_Project_Report.docx    # Root convenience copy of Mini Project Report
 └── README.md                                  # Repository Documentation & Overview
 ```
 
@@ -165,15 +168,17 @@ cmake --build . --config Release
 
 ---
 
-## 📄 Formal Deliverable: Academic Mini Project Report
+## 📄 Formal Academic Deliverables
 
-The repository includes the complete **28–30 A4 page** formal academic report:
-- **`docs/OOP_Game_Engine_ECS_Project_Report.docx`** (~5,670 words, 15 styled tables, 7 embedded high-resolution figures, 8 academic chapters).
-- Formatted strictly to Chandigarh University academic guidelines:
-  - *Chandigarh University Red Banner & "Discover. Learn. Empower." motto*
-  - *Student Details block (Mithun - UID: 25BCD10179)*
-  - *Abstract, Table of Contents, List of Figures, List of Tables*
-  - *Strictly omitting Certificate, Declaration, Acknowledgement per instructions*
+Both Word reports strictly follow Chandigarh University guidelines:
+- *Chandigarh University Red Banner & "Discover. Learn. Empower." motto*
+- *Student Details block (Mithun - UID: 25BCD10179, BCA Data Science, Sem 3, Sec 25BCD-2-B)*
+- *Abstract, Table of Contents, List of Figures, List of Tables*
+- *Strictly omitting Certificate, Declaration, Acknowledgement per instructions*
+
+1. **`Case_Study_OOP_Game_Engine_ECS.docx`**: Follows the strict **7-section case study format**:
+   - *1. Problem Statement | 2. System Specification | 3. Refactoring Methodology | 4. Object-Oriented Design & Patterns | 5. Visual Architecture (7 Figures) | 6. Key Findings | 7. Conclusion & Recommendations*
+2. **`OOP_Game_Engine_ECS_Project_Report.docx`**: Comprehensive **28–30 A4 page** mini project report (~5,670 words, 15 styled tables, 7 embedded high-resolution figures across 8 academic chapters).
 
 ---
 
