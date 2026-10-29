@@ -1,0 +1,24 @@
+# C++ Build & Intermediate Objects
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+build/
+bin/*.ilk
+bin/*.pdb
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
